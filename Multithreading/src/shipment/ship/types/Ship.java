@@ -21,9 +21,11 @@ public class Ship {
         this.count += count;
     }
 
-    public int getCount() {
+    public int getCountMy() {
         return count;
     }
+
+    public void empty() {}
 
     public Size getSize() {
         return size;
