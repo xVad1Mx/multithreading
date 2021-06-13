@@ -17,12 +17,17 @@ public class Ship {
     public Ship(Size randomSize, JapaneseEra randomType) {
     }
 
-    public void add(int count) {
-        this.count += count;
+
+    public int getCountNew() {
+        return count;
     }
 
-    public int getCount() {
-        return count;
+    public void new(){
+
+    }
+
+    public boolean oneMoreNew(){
+        return true;
     }
 
     public Size getSize() {
